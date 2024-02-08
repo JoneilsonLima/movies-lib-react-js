@@ -1,7 +1,7 @@
-const Home = () => {
+const Search = () => {
     return (
-        <div>Home</div>
+        <div>Search</div>
     )
 }
 
-export default Home;
+export default Search;
