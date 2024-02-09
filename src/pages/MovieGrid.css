@@ -56,3 +56,30 @@
     background-color: transparent;
     color: #F7D454;
 }
+
+@media (max-width: 600px) {
+    .movies-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container .title {
+        font-size: 2rem;
+    }
+
+    .movies-container .movie-card {
+        width: 100%;
+        transition: .3s;
+    }
+}
+
+@media (max-width: 360px) {
+    .movies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container .title {
+        font-size: 1.5rem;
+    }
+}

@@ -19,3 +19,8 @@ a {
 a:hover {
     color: #B8930C;
 }
+
+img {
+    max-width: 100%;
+    border-radius: 4px;
+}
